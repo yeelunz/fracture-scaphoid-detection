@@ -1,0 +1,48 @@
+# Core deep learning frameworks
+torch>=1.9.0
+torchvision>=0.10.0
+torchaudio>=0.9.0
+
+# MMDetection ecosystem
+mmcv-full>=1.3.0
+mmdet>=2.20.0
+mmrotate>=0.3.0
+
+# Computer vision and image processing
+opencv-python>=4.5.0
+Pillow>=8.0.0
+
+# Scientific computing
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Data manipulation and analysis
+pandas>=1.3.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Progress bars and utilities
+tqdm>=4.62.0
+
+# Jupyter environment
+jupyter>=1.0.0
+ipywidgets>=7.6.0
+notebook>=6.4.0
+
+# Model evaluation and metrics
+scikit-learn>=1.0.0
+scikit-image>=0.18.0
+
+# Configuration and logging
+pyyaml>=5.4.0
+tensorboard>=2.7.0
+wandb>=0.12.0
+
+# GPU acceleration (optional)
+# Install manually based on your CUDA version:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# For development
+pytest>=6.2.0
+black>=21.0.0
+flake8>=3.9.0
